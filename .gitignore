@@ -1,0 +1,35 @@
+# Build output directories anywhere in the repository
+**/out/
+**/Objects/
+**/Listings/
+
+# GCC object and dependency files
+*.o
+*.d
+
+# Firmware and linker artifacts
+*.elf
+*.hex
+*.bin
+*.map
+
+# Keil generated files
+*.lst
+*.axf
+*.crf
+*.dep
+*.iex
+*.lnp
+*.uvguix
+*.uvoptx
+
+# Common cache and temporary files
+.cache/
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# Operating system files
+.DS_Store
+Thumbs.db
